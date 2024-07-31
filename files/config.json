@@ -11,30 +11,30 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a",
+                        "id":"b5975ae8-117d-496b-997d-8049b14a547d",
                         "flow":"xtls-rprx-vision"
                     }
                 ],
                 "decryption":"none",
                 "fallbacks":[
                     {
-                        "dest":3001
+                        "dest":6001
                     },
                     {
                         "path":"/vless",
-                        "dest":3002
+                        "dest":6002
                     },
                     {
                         "path":"/vmess",
-                        "dest":3003
+                        "dest":6003
                     },
                     {
                         "path":"/trojan",
-                        "dest":3004
+                        "dest":6004
                     },
                     {
                         "path":"/shadowsocks",
-                        "dest":3005
+                        "dest":6005
                     }
                 ]
             },
@@ -49,7 +49,7 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a"
+                        "id":"b5975ae8-117d-496b-997d-8049b14a547d"
                     }
                 ],
                 "decryption":"none"
@@ -66,7 +66,7 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a",
+                        "id":"b5975ae8-117d-496b-997d-8049b14a547d",
                         "level":0
                     }
                 ],
@@ -80,7 +80,7 @@
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -96,7 +96,7 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a",
+                        "id":"b5975ae8-117d-496b-997d-8049b14a547d",
                         "alterId":0
                     }
                 ]
@@ -108,7 +108,7 @@
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -124,7 +124,7 @@
             "settings":{
                 "clients":[
                     {
-                        "password":"986e0d08-b275-4dd3-9e75-f3094b36fa2a"
+                        "password":"b5975ae8-117d-496b-997d-8049b14a547d"
                     }
                 ]
             },
@@ -136,7 +136,7 @@
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
@@ -153,7 +153,7 @@
                 "clients":[
                     {
                         "method":"chacha20-ietf-poly1305",
-                        "password":"986e0d08-b275-4dd3-9e75-f3094b36fa2a"
+                        "password":"b5975ae8-117d-496b-997d-8049b14a547d"
                     }
                 ],
                 "decryption":"none"
@@ -165,7 +165,7 @@
                 }
             },
             "sniffing":{
-                "enabled":true,
+                "enabled":false,
                 "destOverride":[
                     "http",
                     "tls",
